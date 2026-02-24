@@ -95,10 +95,10 @@ export function Hero() {
             className="relative h-[600px] lg:h-[800px] w-full mt-12 lg:mt-0"
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-3xl transform rotate-3 scale-105" />
-            {/* landing page hero fitness trainer intense workout */}
+            {/* landing page hero fitness trainer coaching male client intense workout */}
             <img
-              src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2000&auto=format&fit=crop"
-              alt="Professional Fitness Trainer"
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2000&auto=format&fit=crop"
+              alt="Male fitness trainer coaching male client"
               className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl z-10"
             />
             

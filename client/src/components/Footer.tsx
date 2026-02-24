@@ -12,7 +12,7 @@ export function Footer() {
                 <Dumbbell className="w-6 h-6" />
               </div>
               <span className="font-display font-bold text-2xl tracking-tight text-white">
-                ELEVATE<span className="text-primary">FIT</span>
+                BG ELEVATE<span className="text-primary">FIT</span>
               </span>
             </a>
             <p className="text-white/60 text-balance mb-6">
@@ -53,7 +53,7 @@ export function Footer() {
         </div>
 
         <div className="text-center text-white/40 text-sm">
-          <p>&copy; {new Date().getFullYear()} ElevateFit Coaching. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} BG ElevateFit Coaching. All rights reserved.</p>
         </div>
       </div>
     </footer>

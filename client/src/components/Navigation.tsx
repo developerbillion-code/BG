@@ -32,7 +32,7 @@ export function Navigation() {
             <Dumbbell className="w-6 h-6" />
           </div>
           <span className="font-display font-bold text-xl tracking-tight">
-            ELEVATE<span className="text-primary">FIT</span>
+            BG ELEVATE<span className="text-primary">FIT</span>
           </span>
         </a>
 
