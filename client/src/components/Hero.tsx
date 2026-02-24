@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, PlayCircle } from "lucide-react";
+import heroTrainer from '../assets/male-trainer2.jpg';
 
 export function Hero() {
   return (
@@ -96,11 +97,11 @@ export function Hero() {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-3xl transform rotate-3 scale-105" />
             {/* landing page hero fitness trainer coaching male client intense workout */}
-            <img
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2000&auto=format&fit=crop"
-              alt="Male fitness trainer coaching male client"
-              className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl z-10"
-            />
+         <img
+  src={heroTrainer}
+  alt="Male fitness trainer coaching male client"
+  className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl z-10"
+/>
             
             {/* Floating Badge */}
             <motion.div 

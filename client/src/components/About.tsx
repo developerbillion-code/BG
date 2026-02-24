@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, Clock, Users, ShieldCheck } from "lucide-react";
+import maleTrainer from '../assets/male-trainer.jpg';
 
 export function About() {
   const credentials = [
@@ -39,15 +40,15 @@ export function About() {
           >
             <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               {/* about section trainer portrait confident */}
-              <img 
-                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2000&auto=format&fit=crop"
-                alt="Head Coach"
-                className="absolute inset-0 w-full h-full object-cover"
-              />
+            <img 
+  src={maleTrainer} 
+  alt="Head Coach" 
+  className="absolute inset-0 w-full h-full object-cover"
+/>
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 p-8">
                 <p className="text-primary font-bold tracking-wider uppercase text-sm mb-1">Head Coach</p>
-                <h3 className="text-3xl font-display font-bold text-white">Alex Mercer</h3>
+                <h3 className="text-3xl font-display font-bold text-white">Tom Mercer</h3>
               </div>
             </div>
             
